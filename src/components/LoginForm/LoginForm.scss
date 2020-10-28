@@ -1,0 +1,50 @@
+.title {
+    font-weight: normal;
+}
+.title span {
+    font-weight: bold;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+
+    &__item {
+        margin-top: 25px;
+    }
+
+    &__input {
+        border-radius: 3px;
+        border: solid 1px #cfcaca ;
+        padding: 4px 10px;
+
+    }
+}
+.label {
+    display: flex;
+    flex-direction: column;
+    &__text {
+        margin-bottom: 5px;
+    }
+
+}
+.btn {
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(158, 106, 243);
+    color: #ffffff;
+    line-height: 40px;
+    width: 200px;
+    margin-top: 60px;
+}
+.link {
+    display: block;
+    text-decoration: none;
+    margin-top: 15px;
+}
+.links {
+    margin-top: 150px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
